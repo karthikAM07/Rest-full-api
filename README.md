@@ -626,6 +626,7 @@ public class AnimalResource {
 
 ```
 <h1>Table Structure</h1>
+
 ```
 create table user (
 id integer not null, 
@@ -634,6 +635,7 @@ language varchar(255),
 sound varchar(255),
 primary key (id)
 );
+
 ```
 
 

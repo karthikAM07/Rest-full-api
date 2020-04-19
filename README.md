@@ -97,25 +97,33 @@ GET http://localhost:8010/animals
 ]
 ```
 
-GET http://localhost:8010/animals/1
+
+GET http://localhost:8010/animals/10
 ```
 {
-    "id": 1,
+    "id": 10,
     "name": "Rooster",
-    "language": "Danish",
-    "sound": "kykyliky"
+    "language": "Russian",
+    "sound": "kukareku"
 }
 ```
+![image](https://user-images.githubusercontent.com/63912537/79681631-4f6fac00-824e-11ea-91d2-4bc99e92fcdc.png)
+
 
 POST http://localhost:8010/animals
 ```
 {
-        "id": 15,
+        "id": 14,
         "name": "Rooster",
-        "language": "Kannada",
-        "sound": "kkkaaakaa"
+        "language": "Tamil",
+        "sound": "tkkykyk"
     }
 ```
+![image](https://user-images.githubusercontent.com/63912537/79681646-64e4d600-824e-11ea-8cec-c6e2a4b0706f.png)
+
+![image](https://user-images.githubusercontent.com/63912537/79681667-85149500-824e-11ea-81af-b08c2631b9e3.png)
+
+
 GET http://localhost:8010/animals/1000
 
 i.Get request to a non existing resource.

@@ -1,4 +1,4 @@
-package com.example.restfull.resfull_API.user;
+package com.example.restfull.resfull_API.animal;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

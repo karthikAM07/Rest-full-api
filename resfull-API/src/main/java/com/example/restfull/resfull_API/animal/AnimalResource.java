@@ -1,4 +1,4 @@
-package com.example.restfull.resfull_API.user;
+package com.example.restfull.resfull_API.animal;
 
 import java.lang.reflect.Method;
 import java.net.URI;

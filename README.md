@@ -13,7 +13,7 @@
  
  <b><h1>Example Requests</h1></b> 
  
-GET http://localhost:8010/animals
+<b> GET http://localhost:8010/animals </b>
 ```
 [
     {
@@ -98,7 +98,7 @@ GET http://localhost:8010/animals
 ```
 
 
-GET http://localhost:8010/animals/10
+<b> GET http://localhost:8010/animals/10 </b>
 ```
 {
     "id": 10,
@@ -110,7 +110,7 @@ GET http://localhost:8010/animals/10
 ![image](https://user-images.githubusercontent.com/63912537/79681631-4f6fac00-824e-11ea-91d2-4bc99e92fcdc.png)
 
 
-POST http://localhost:8010/animals
+<b> POST http://localhost:8010/animals </b>
 ```
 {
         "id": 14,
@@ -124,7 +124,7 @@ POST http://localhost:8010/animals
 ![image](https://user-images.githubusercontent.com/63912537/79681667-85149500-824e-11ea-81af-b08c2631b9e3.png)
 
 
-GET http://localhost:8010/animals/1000
+<b> GET http://localhost:8010/animals/1000 </b>
 
 i.Get request to a non existing resource.
 ii.The response shows a Customized Message Structure
@@ -136,7 +136,7 @@ ii.The response shows a Customized Message Structure
 }
 ```
 
-POST http://localhost:8010/animals with Validation Errors
+<b>POST http://localhost:8010/animals with Validation Errors </b>
 
 <b>Request</b>
 ```
@@ -155,6 +155,11 @@ POST http://localhost:8010/animals with Validation Errors
     "details": "org.springframework.validation.BeanPropertyBindingResult: 1 errors\nField error in object 'animal' on field 'name': rejected value [R]; codes [Size.animal.name,Size.name,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [animal.name,name]; arguments []; default message [name],2147483647,2]; default message [min have 2 char]"
 }
 ```
+<b> DELETE http://localhost:8010/animals/10 </b>
+
+![image](https://user-images.githubusercontent.com/63912537/79681818-bfcafd00-824f-11ea-9a72-991e9fc4d582.png)
+
+
 <b>/pom.xml</b>
 ```
 <?xml version="1.0" encoding="UTF-8"?>

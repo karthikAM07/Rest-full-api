@@ -625,18 +625,7 @@ public class AnimalResource {
 }
 
 ```
-<h1>Table Structure</h1>
 
-```
-create table user (
-id integer not null, 
-name varchar(255), 
-language varchar(255),
-sound varchar(255),
-primary key (id)
-);
-
-```
 
 
  <h2> H2-Console</h2>

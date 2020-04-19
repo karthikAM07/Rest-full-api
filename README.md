@@ -1,12 +1,12 @@
 # Restfull-API
  RESTful API for querying the animals-[search,Insert, delete];
  
- retriveAllAnimal in JSON formate using <B>GET</B> methos: http://localhost:8010/animals ;
+ retriveAllAnimal in JSON formate using <B>GET</B> method: http://localhost:8010/animals ;
 
  
- Create the new item using <B>POST</B> method in our service;
+ Create the new item using <B>POST</B> method in our service http://localhost:8010/animals;
  
- We can delete the particular item using <B>DELETE</B> method in our service ;
+ We can delete the particular item using <B>DELETE</B> method in our service http://localhost:8010/animals;
  
 
  

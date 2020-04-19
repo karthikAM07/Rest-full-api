@@ -1,4 +1,4 @@
-# animal-rest-full-api
+# Restfull-API
  RESTful API for querying the animals-[search,Insert, delete];
  
  retriveAllAnimal in JSON formate using <B>GET</B> methos: http://localhost:8010/animals ;

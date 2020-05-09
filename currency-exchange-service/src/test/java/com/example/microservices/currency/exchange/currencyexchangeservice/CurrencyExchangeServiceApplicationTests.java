@@ -1,10 +1,10 @@
-package com.example.restfull.resfull_API;
+package com.example.microservices.currency.exchange.currencyexchangeservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ResfullApiApplicationTests {
+class CurrencyExchangeServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
